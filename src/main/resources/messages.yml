@@ -1,0 +1,5 @@
+# Plugin only support minimessage colors.
+
+prefix: "<gradient:#fa05dd:#ffffff>[PromptHelper]</gradient> "
+plugin_reloaded: "<green>Plugin successfully reloaded!</green>"
+no_permission: "<red>You do not have permission to use this command!</red>"

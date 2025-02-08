@@ -1,0 +1,9 @@
+menu_title: "<b><gradient:#FF00CF:#000000>Prompts Menu</gradient></b>"
+menu_item_name: "<gradient:#FF00CF:#000000>Available Prompts</gradient>"
+trigger_word: "phelper" # You can change this if you like that.
+anti_spam:
+  enabled: true
+  cooldown_seconds: 5
+anti_exploit:
+  max_message_length: 128
+  block_special_chars: true

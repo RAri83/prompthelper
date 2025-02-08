@@ -1,0 +1,17 @@
+name: PromptHelper
+version: '1.0'
+main: ir.arij83.promptHelper.PromptHelper
+api-version: '1.20'
+authors: [ AriJ83 ]
+description: Prompt Helper - ChatHelper
+website: https://arij83.ir
+
+commands:
+  phelper:
+    description: Prompt Helper main command
+    usage: /phelper [reload]
+    permission: prompthelper.admin
+permissions:
+  prompthelper.admin:
+    description: Allows reloading the plugin
+    default: op

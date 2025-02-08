@@ -1,0 +1,6 @@
+# You can use gradient message if you like.
+# Example: <gradient:#hex1:#hex2>Hello, how can I assist you today?</gradient>
+# Bold: <b>This is a bold message</b>
+
+hello phelper: "<gold>Hello, how can I assist you today?</gold>"
+help: "<blue>Here are the available commands...</blue>"
