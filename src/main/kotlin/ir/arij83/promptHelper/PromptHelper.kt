@@ -61,7 +61,6 @@ class PromptHelper : JavaPlugin(), Listener, CommandExecutor {
         val player = event.player
         val message = event.message.lowercase()
 
-        // Anti-Spam
         val cooldownTime = config.getLong("anti_spam.cooldown_seconds", 5) * 1000
         val lastTime = lastMessageTime[player.uniqueId] ?: 0
         if (System.currentTimeMillis() - lastTime < cooldownTime) {
@@ -71,7 +70,6 @@ class PromptHelper : JavaPlugin(), Listener, CommandExecutor {
         }
         lastMessageTime[player.uniqueId] = System.currentTimeMillis()
 
-        // Anti-Exploit
         val maxLength = config.getInt("anti_exploit.max_message_length", 256)
         if (message.length > maxLength) {
             event.isCancelled = true
